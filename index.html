@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https: //fonts.googleapis.com/css2?family= семья = Manrope: вес @ 200; 300; 400; 500; 600; 700; 800 &Raleway :wght@400;700 & display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -17,16 +17,30 @@
   </head>
   <body>
     <div class="container">
-      <h3>Метрика Лого</h3>
-      <div>
-        <h1>
-          Современные и стильные,<br />
-          интерьеры для комфортной жизни
-        </h1>
+      <div class="nav-section">
+        <div class="header">
+          <img
+            class="projects__title__head"
+            src="Resources/Метрика.jpg"
+            alt="логотип метрики"
+          />
+
+          <div class="nav">
+            <a href="#prj" class="nav__link">О НАС</a>
+            <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
+            <a href="#services" class="nav__link">УСЛУГИ</a>
+            <a href="#number" class="nav__link">КОНТАКТЫ</a>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <img src="Resources/Rectangle-1.png" />
-
+    <div class="container">
+      <h1>
+        Современные и стильные,<br />
+        интерьеры для комфортной жизни
+      </h1>
+      <img class="header_png" src="Resources/Rectangle-1.png" />
       <p>
         Мы - команда квалифицированных дизайнеров <br />
         и архитекторов, занимающихся разработкой и <br />
@@ -35,20 +49,23 @@
     </div>
 
     <div class="container">
-      <h4>О НАС</h4>
-      <h2>
-        Студия основана в 2011 году. Полностью отдаемся<br />
-        проектированию и реализации интерьеров. К нам<br />
-        обращаются за уютом, индивидуальными<br />
-        решениями и практичностью. Находим<br />
-        конструктивные решения для каждого интерьера,<br />
-        вплоть до каждой детали — нацелены на результат.
-      </h2>
-      <a href="/">Посмотреть услуги</a>
+      <div id="prj" class="section">
+        <h4>О НАС</h4>
+        <h2>
+          Студия основана в 2011 году. Полностью отдаемся<br />
+          проектированию и реализации интерьеров. К нам<br />
+          обращаются за уютом, индивидуальными<br />
+          решениями и практичностью. Находим<br />
+          конструктивные решения для каждого интерьера,<br />
+          вплоть до каждой детали — нацелены на результат.
+        </h2>
+        <a class="view_services" href="/">Посмотреть услуги</a>
+      </div>
     </div>
 
     <div class="container">
-      <h4 class="projects__h">ПРОЕКТЫ</h4>
+      <div id="projects" class="section"></div>
+      <h5 class="painting title">ПРОЕКТЫ</h5>
       <div class="projects">
         <img
           class="projects__image"
@@ -79,33 +96,71 @@
       >
     </div>
 
+    <div id="services" class="container services">
+      <h4 class="image__text">УСЛУГИ</h4>
+      <div class="services_elements">
+        <div class="section">
+          <div class="projects__container">
+            <img class="projects__img" src=" Resources/Rectangle3.png" alt="" />
+            <h4 class="img__text">Планировочное решение-от2500Р/м2</h4>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="projects__container">
+            <img class="projects__img" src=" Resources/Rectangle2.png" alt="" />
+            <h4 class="img__text">Дизайн проект-3000P/м2</h4>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="projects__container">
+            <img class="projects__img" src=" Resources/Rectangle4.png" alt="" />
+            <h4 class="img__text">Авторский надзор-от30 000Р в месяц</h4>
+          </div>
+        </div>
+
+        <div class="section_bottom">
+          <div class="projects__container">
+            <img class="projects__img" src=" Resources/Rectangle5.png" alt="" />
+            <h4 class="img__text">Комплектация-5% от стоимости спецификации</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
-      <div class="section">
-        <div class="projects__container">
-          <h4 class="image__text">УСЛУГИ</h4>
-          <img class="projects__img" src=" Resources/Rectangle3.png" alt="" />
-          <h4 class="img__text">Планировочное решение-от2500Р/м2</h4>
+      <img class="last_picture" src="Resources/Rectangle10.png" alt="" />
+
+      <h3 class="mydiv3">
+        Проект Двухукомнатной<br />
+        квартиры в ЖК Лесной Пейзаж
+      </h3>
+    </div>
+
+    <div class="container">
+      <div id="number" class="section">
+        <h5 class="paragraphly">КОНТАКТЫ</h5>
+        <div class="qwerty">
+          <a class="telephone_number" href="tel:+799999999">+7 935-895-45-35</a>
+        </div>
+
+        <div class="zxcv">
+          <a class="my_address" href="mailto:test@yandex.ru">hello@mail.com</a>
         </div>
       </div>
+    </div>
 
-      <div class="section">
-        <div class="projects__container">
-          <img class="projects__img" src=" Resources/Rectangle2.png" alt="" />
-          <h4 class="img__text">Дизайн проект-3000P/м2</h4>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="projects__container">
-          <img class="projects__img" src=" Resources/Rectangle4.png" alt="" />
-          <h4 class="img__text">Авторский надзор-от30 000Р в месяц</h4>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="projects__container">
-          <img class="projects__img" src=" Resources/Rectangle5.png" alt="" />
-          <h4 class="img__text">Комплектация-5% от стоимости спецификации</h4>
+    <div class="container">
+      <div class="two-section">
+        <div class="legs">
+          <div class="two">
+            <a href="#prj" class="two__link">О НАС</a>
+            <a href="#projects" class="two__link">ПРОЕКТЫ</a>
+            <a href="#services" class="two__link">УСЛУГИ</a>
+            <a href="#contaсts" class="two__link">КОНТАКТЫ</a>
+          </div>
+          <p class="text__two">Cтудия дизайна интерьера Метрика-2023</p>
         </div>
       </div>
     </div>
